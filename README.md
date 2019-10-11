@@ -27,7 +27,22 @@ Backend Application:
     
 2. There is a use of JPA repository and H2 embedded database. 
     - data.sql file is attahed already. That's why when you launch the application, you will see the data is already present.
+    - acsess H2 database using http://localhost:8080/h2-console and jdbc url - 'jdbc:h2:mem:testdb'
     
-2. There are testcases written using Mockito Junit framework 
+3. There are testcases written using Mockito Junit framework 
     - still there is an improvement area to write more test cases. currently there are three testcases present.
+    
+    
+Frontend Application:
+---------------------
+
+1. recipe folder contains the code for fronetend application wriitent using angular framework
+
+2. this application has many components:
+    - Welcome - should display all recipes submitted by all users
+    - Login - this page allows user to access the module My Recipe 
+    - My Recipe - after success login to application, user can access this page. Here, user can add recipe, update and delete existing recipe
+    - logout - displays for only loggedin users and allow user to logout from the application 
+    
+
 
