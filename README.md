@@ -36,19 +36,22 @@ Backend Application:
 Frontend Application:
 ---------------------
 
-1. recipe folder contains the code for fronetend application wriitent using angular framework
+1. Recipe folder contains the code for fronetend application wriitent using angular framework
 
-2. this application has many components:
+2. This application has many components:
     - Welcome - should display all recipes submitted by all users
     - Login - this page allows user to access the module My Recipe 
     - My Recipes - after success login to application, user can access this page. Here, user can add recipe, update and delete existing recipe
     - logout - displays for only logged in users and allow user to logout from the application 
     - Header - contains menu items e.g. Login, Welcome, My Recipes, Logout
     
-3. there are three services present:
+3. There are three services present:
     - Authentication service for user authentication
     - RouteGuard Service to restrict user's access to particular modules e.g. My Recipes module can only be displayed once user is logged in
     - RecipeDataService to connect frontend with jpa resources 
+    
+4. Still there are improvement areas for search functionality, image upload functionality, writing testcases and allow 
+    - Currently application accepts live image url of the recipe  
     
 
 
