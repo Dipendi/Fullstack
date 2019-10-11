@@ -41,8 +41,14 @@ Frontend Application:
 2. this application has many components:
     - Welcome - should display all recipes submitted by all users
     - Login - this page allows user to access the module My Recipe 
-    - My Recipe - after success login to application, user can access this page. Here, user can add recipe, update and delete existing recipe
-    - logout - displays for only loggedin users and allow user to logout from the application 
+    - My Recipes - after success login to application, user can access this page. Here, user can add recipe, update and delete existing recipe
+    - logout - displays for only logged in users and allow user to logout from the application 
+    - Header - contains menu items e.g. Login, Welcome, My Recipes, Logout
+    
+3. there are three services present:
+    - Authentication service for user authentication
+    - RouteGuard Service to restrict user's access to particular modules e.g. My Recipes module can only be displayed once user is logged in
+    - RecipeDataService to connect frontend with jpa resources 
     
 
 
