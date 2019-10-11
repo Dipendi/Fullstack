@@ -30,8 +30,7 @@ Backend Application:
     - data.sql file is attahed already. That's why when you launch the application, you will see the data is already present.
     - acsess H2 database using http://localhost:8080/h2-console and jdbc url - 'jdbc:h2:mem:testdb'
     
-3. There are testcases written using Mockito Junit framework 
-    - still there is an improvement area to write more test cases. currently there are three testcases present.
+3. There are testcases written using Mockito Junit framework
     
     
 Frontend Application:
@@ -50,9 +49,3 @@ Frontend Application:
     - Authentication service for user authentication
     - RouteGuard Service to restrict user's access to particular modules e.g. My Recipes module can only be displayed once user is logged in
     - RecipeDataService to connect frontend with jpa resources 
-    
-4. Still there are improvement areas for search functionality, image upload functionality, writing testcases and allow 
-    - Currently application accepts live image url of the recipe  
-    
-
-Improvemt also includes use of swagger, authentication with springboot and spring security
