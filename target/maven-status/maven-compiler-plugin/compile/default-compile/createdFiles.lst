@@ -1,0 +1,9 @@
+com/dipendi/rest/webservices/restfulwebservices/recipe/RecipeNotFoundException.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/searchService.class
+com/dipendi/rest/webservices/restfulwebservices/RestfulWebServicesApplication.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/RecipeJpaRepository.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/Recipe.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/RecipeResource.class
+recipe/Recipe.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/RecipeDaoService.class
+com/dipendi/rest/webservices/restfulwebservices/recipe/RecipeJpaResource.class
