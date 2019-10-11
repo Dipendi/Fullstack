@@ -1,4 +1,5 @@
-##Angular frontend and Springboot microservice using Docker Compose
+Angular frontend and Springboot microservice using Docker Compose
+======================================================================
 
 Create a Dockerfile for creating a docker image from the Spring Boot Application FROM openjdk:8 VOLUME /tmp ADD target/restful-web-services-0.0.1-SNAPSHOT.jar restful-web-services-0.0.1-SNAPSHOT.jar EXPOSE 8080 ENTRYPOINT ["java", "-jar", "springboot-docker-compose.jar"]
 
