@@ -8,3 +8,21 @@ Angular frontend and Springboot microservice using Docker Compose
 3. Create the Docker image - springboot-docker-compose and nginx:alpine start application using docker compose created in #2. docker-compose up
 
 4. Stop docker container docker-compose down
+
+
+Basic Understanding of how the flow works
+======================================================================
+
+Backend Application:
+--------------------
+
+1. target folder containes backend code written in java springboot using CRUD operations 
+    create @POST
+    Retrieve @GET
+    Update @PUT
+    Delete @DELETE
+    Retrieve by id @GET/{id} (for retrieving specific recipe details)
+    
+2. There are testcases written using Mockito Junit framework 
+    - still there is an improvement area to write more test cases. currently there are three testcases present.
+
