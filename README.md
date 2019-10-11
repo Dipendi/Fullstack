@@ -18,7 +18,7 @@ Basic Understanding of how the flow works
 Backend Application:
 --------------------
 
-1. target folder containes backend code written in java springboot using CRUD operations 
+1. target folder containes backend code written in java springboot using REST Api to CRUD operations 
     create @POST
     Retrieve @GET
     Update @PUT
@@ -54,4 +54,4 @@ Frontend Application:
     - Currently application accepts live image url of the recipe  
     
 
-
+Improvemt also includes use of swagger, authentication with springboot and spring security
