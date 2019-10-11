@@ -7,7 +7,9 @@ Angular frontend and Springboot microservice using Docker Compose
 
 3. Create the Docker image - springboot-docker-compose and nginx:alpine start application using docker compose created in #2. docker-compose up
 
-4. Stop docker container docker-compose down
+4. To access the application, use Username - Dipendi, Password - Dipendi 
+
+5. Stop docker container docker-compose down
 
 
 Basic Understanding of how the flow works
@@ -22,6 +24,9 @@ Backend Application:
     Update @PUT
     Delete @DELETE
     Retrieve by id @GET/{id} (for retrieving specific recipe details)
+    
+2. There is a use of JPA repository and H2 embedded database. 
+    - data.sql file is attahed already. That's why when you launch the application, you will see the data is already present.
     
 2. There are testcases written using Mockito Junit framework 
     - still there is an improvement area to write more test cases. currently there are three testcases present.
