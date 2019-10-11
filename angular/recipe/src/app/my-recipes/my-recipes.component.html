@@ -1,0 +1,36 @@
+<h1> My Recipes!</h1><br>
+
+<div class="alert alert-success" *ngIf='message'>{{message}}</div>
+<button (click)="addRecipe()" class="btn btn-success">Add New Recipe</button>
+<div class="container">
+  <table class="table">
+    <br>
+    <thead>
+      <tr>
+        <!-- <th>Recipe</th>
+        <th>veg/nonveg</th>
+        <th>Description</th>
+        <th>Created By</th> -->
+        <!-- <th>Update</th>
+        <th>Delete</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let recipe of recipes">
+        <td><a routerLink="/recipes" (click)="showRecipe(recipe.id)">{{recipe.name}}</a><br>
+          <font color="purple">{{recipe.description}}</font><br>
+          <br>
+          <a routerLink="/recipes" (click)="showRecipe(recipe.id)"><img src="{{recipe.imgsrc}}" width="500" height="300"></a> <br><br>
+        </td>
+        <td>
+          <br><br><br>Type: <b>{{recipe.type}}</b> 
+          <br><br>Ingredients:<br><br>{{recipe.ingredients}} <a routerLink="/recipes" (click)="showRecipe(recipe.id)">more for recipe</a>
+          <br><br>
+          <button (click)="updateRecipe(recipe.id)" class="btn btn-success">Update Recipe</button>
+          <button (click)="deleteRecipe(recipe.id)" class="btn btn-warning">Delete Recipe</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <br><BR>
+</div>

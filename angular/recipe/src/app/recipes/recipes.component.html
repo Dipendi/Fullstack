@@ -1,0 +1,31 @@
+<H1></H1>
+
+<div class="container">
+  <fieldset class="form-group">
+    <h2>{{recipe.name}}</h2>
+    <b>{{recipe.type}}</b>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <img src="{{recipe.imgsrc}}" width="500" height="300">
+  </fieldset>
+
+  <fieldset class="form-group">
+    <br>
+    <label><b>Ingrediants</b></label><br>
+    <p>{{recipe.ingredients}}</p>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <br>
+    <label><b>Cooking Instructions:</b></label><br>
+    <p>{{recipe.instructions}}</p>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <br>
+    <label><b>Created by: </b></label>
+    {{recipe.username}} at {{recipe.createDate | date}}
+  </fieldset>
+
+</div>

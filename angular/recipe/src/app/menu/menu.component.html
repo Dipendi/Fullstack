@@ -1,0 +1,14 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+        <ul class="navbar-nav">
+            <li><a routerLink="/welcome" class="nav-link">Cooking World</a></li>
+            <li><a *ngIf="hardcodedAuthenticationServiceService.isUserLoggedIn()" routerLink="/recipes" class="nav-link">My Recipes</a></li>
+        </ul>
+
+        <ul class="navbar-nav navbar-collapse justify-content-end">
+            <li><a *ngIf="!hardcodedAuthenticationServiceService.isUserLoggedIn()" routerLink="/login" class="nav-link">Login</a></li>
+            <li><a *ngIf="hardcodedAuthenticationServiceService.isUserLoggedIn()" routerLink="/logout" class="nav-link">Logout</a></li>
+        </ul>
+    </nav>
+</header>
