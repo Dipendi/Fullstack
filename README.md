@@ -21,7 +21,7 @@ Basic Understanding of how flow works
 Backend Application:
 --------------------
 
-1. target folder containes backend code written in java springboot using REST Api to CRUD operations 
+1. Target folder contains build code (having jar file) written in java springboot using REST Api to CRUD operations 
     create @POST
     Retrieve @GET
     Update @PUT
