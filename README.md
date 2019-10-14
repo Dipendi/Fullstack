@@ -21,7 +21,7 @@ Basic Understanding of how flow works
 Backend Application:
 --------------------
 
-1. springboot/restful-web-services folder contains backend code written in java springboot using REST Api to CRUD operations 
+1. "springboot/restful-web-services" folder contains backend code written in java springboot using REST Api to CRUD operations 
     create @POST
     Retrieve @GET
     Update @PUT
@@ -40,7 +40,7 @@ Backend Application:
 Frontend Application:
 ---------------------
 
-1. Angular folder contains the code for fronetend application wriitent using angular framework
+1. "angular" folder contains the code for fronetend application wriitent using angular framework
 
 2. This application has many components:
     - Welcome - should display all recipes submitted by all users
