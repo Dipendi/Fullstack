@@ -21,7 +21,7 @@ Basic Understanding of how flow works
 Backend Application:
 --------------------
 
-1. Target folder contains build code (having jar file) written in java springboot using REST Api to CRUD operations 
+1. springboot/restful-web-services folder contains backend code written in java springboot using REST Api to CRUD operations 
     create @POST
     Retrieve @GET
     Update @PUT
@@ -33,12 +33,14 @@ Backend Application:
     - acsess H2 database using http://localhost:8080/h2-console and jdbc url - 'jdbc:h2:mem:testdb'
     
 3. There are testcases written using Mockito Junit framework
+
+4. "target" folder contains jar file for deploying java applciation
     
     
 Frontend Application:
 ---------------------
 
-1. Recipe folder contains the code for fronetend application wriitent using angular framework
+1. Angular folder contains the code for fronetend application wriitent using angular framework
 
 2. This application has many components:
     - Welcome - should display all recipes submitted by all users
@@ -51,3 +53,5 @@ Frontend Application:
     - Authentication service for user authentication
     - RouteGuard Service to restrict user's access to particular modules e.g. My Recipes module can only be displayed once user is logged in
     - RecipeDataService to connect frontend with jpa resources 
+    
+4. "recipe" folder contains the code for deploying angular application 
